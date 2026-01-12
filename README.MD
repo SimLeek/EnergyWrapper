@@ -20,7 +20,8 @@ Post training results from the energy wrapped RNN:
 copy task that's more repetitive. This time with a zero-init RNN. It was unable to learn:
 [![RNN plot](plots/rnn_error_plot_zero_copy_control.png)]()
 Post training on a wrapped neural network:
-[![RNN plot](plots/rnn_error_plot_zero_copy_wrapped.png)]()
+[![RNN plot](plots/rnn_error_plot_zero_copy_wrapped.png
+I'm pretty sure they overfit, but they didn't output the same thing over and over again, unlike the other RNNs.
 
 ## Installation
 
