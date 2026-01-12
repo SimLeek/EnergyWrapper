@@ -3,8 +3,8 @@ import torch.nn as nn
 import numpy as np
 import matplotlib.pyplot as plt
 from random import randint
-from basic_rnn import BasicRNN
-from energy_wrapper import wrap_energy_dynamics
+from example.basic_rnn import BasicRNN
+from energywrap.automatic import wrap_energy_dynamics
 
 # Dataset for sine wave prediction
 def generate_sine_wave_seq(T: int = 150) -> torch.Tensor:
